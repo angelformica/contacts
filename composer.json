@@ -46,9 +46,9 @@
         "illuminate/support": "^5.6.0",
         "jackpopp/geodistance": "^1.2.0",
         "propaganistas/laravel-phone": "^4.0.0",
-        "rinvex/cacheable": "dev-develop",
-        "rinvex/country": "dev-develop",
-        "rinvex/language": "dev-develop",
+        "rinvex/cacheable": "dev-laravel5.7",
+        "rinvex/country": "dev-laravel5.7",
+        "rinvex/language": "dev-laravel5.7",
         "rinvex/support": "dev-laravel5.7",
         "watson/validating": "^3.1.0"
     },
@@ -89,6 +89,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/angelformica/support"
+        },
+                {
+            "type": "vcs",
+            "url": "https://github.com/angelformica/cacheable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/angelformica/language"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/angelformica/country"
         }
     ],       
     "minimum-stability": "dev",
